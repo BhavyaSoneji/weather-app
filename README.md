@@ -102,7 +102,7 @@ The application is fully responsive and adapts to various screen sizes, making i
 
 This application uses the OpenWeatherMap API to fetch weather data. The API provides:
 - Current weather conditions
-- Temperature data (in Kelvin, converted for display)
+- Temperature data in Kelvin
 - Weather descriptions and icons
 - Wind speed and direction
 - Atmospheric pressure
