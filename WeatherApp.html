@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./WeatherApp.css">
+  </head>
+  <body>
+    <div class="main">
+      <!-- Main Section  -->
+      <section>
+        <!-- Search Bar Seaction -->
+  
+        <div class="weather_search">
+          <form class="form_input">
+            <!-- Search Icon -->
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <!-- Input to search -->
+            <input type="text" class="weather_input" placeholder="search your city.." />
+          </form>
+        </div>
+  
+        <!-- Weather and Location Section -->
+  
+        <div class="weather_main">
+          <!-- City and Country-->
+          <h1 class="weather_location"></h1>
+          <!-- Date and Time of the location -->
+          <p class="weather_date_time"></p>
+          <!-- weather type -->
+          <div class="weather_type"></div>
+          <!-- weather_type_icon -->
+           <div class="weather_type_icon"></div>
+          <!-- weather Temperature -->
+          <h1 class="weather_tempreature"></h1>
+          <div class="weather_min_max">
+             <!-- weather min -->
+             <p class="weather_min"></p>
+             <!-- weather max -->
+             <p class="weather_max"></p>
+
+           </div>
+        </div>
+  
+        <!-- Weather Extra Data Section -->
+  
+        <div class="weather_info">
+          <div class="weather_card">
+            <i class="fa-solid fa-temperature-high icon-card"></i>
+            <div>
+              <p class="weather_info_text">Feels Like</p>
+              <p class="weather_feels_like"></p>
+            </div>
+          </div>
+          <div class="weather_card">
+            <i class="fa-solid fa-droplet icon-card"></i>
+            <div>
+              <p class="weather_info_text">Humdity</p>
+              <p class="weather_humidity"></p>
+            </div>
+          </div>
+          <div class="weather_card">
+            <i class="fa-solid fa-wind icon-card"></i>
+            <div>
+              <p class="weather_info_text">Wind</p>
+              <p class="weather_wind"></p>
+            </div>
+          </div>
+          <div class="weather_card">
+            <i class="fa-solid fa-gauge-simple-high icon-card"></i>
+            <div>
+              <p class="weather_info_text">Pressure</p>
+              <p class="weather_pressure"></p>
+            </div>
+          </div>
+        </div>
+      <script src="WeatherApp.js"></script>
+      </section>
+    </div>
+  </body>
+</html>
